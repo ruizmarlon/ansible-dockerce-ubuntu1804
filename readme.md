@@ -1,5 +1,7 @@
 Orignally sourced from: https://github.com/do-community/ansible-playbooks
 
+[Modified original playbook to install python-pip]
+
 # Docker on Ubuntu 18.04
 
 This playbook will install Docker an Ubuntu 18.04 machine, as explained in the guide on
