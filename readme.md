@@ -1,4 +1,4 @@
-Sourced from: https://github.com/do-community/ansible-playbooks
+Orignally sourced from: https://github.com/do-community/ansible-playbooks
 
 # Docker on Ubuntu 18.04
 
@@ -41,8 +41,16 @@ default_container_command: sleep 1d
 
 ### 3. Run the Playbook
 
+Option One
+
 ```command
 ansible-playbook -l [target] -i [inventory file] -u [remote user] playbook.yml
+```
+
+Option Two (use host file to call out targets, user/pass)
+
+```command
+ansible-playbook playbook.yml
 ```
 
 For more information on how to run this Ansible setup, please check this guide: [How to Use Ansible to Install and Set Up Docker on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-use-ansible-to-install-and-set-up-docker-on-ubuntu-18-04).
