@@ -1,3 +1,5 @@
+Sourced from: https://github.com/do-community/ansible-playbooks
+
 # Docker on Ubuntu 18.04
 
 This playbook will install Docker an Ubuntu 18.04 machine, as explained in the guide on
